@@ -1,3 +1,7 @@
+const exchangeRateAPIKey = "66a63b2e9e50771023157026";
+const exchangeRateBaseURL = "https://v6.exchangerate-api.com/v6/";
+const countryListAPI = "https://restcountries.com/v3.1/all?fields=name,currencies,flag";
+
 const amountInput = document.getElementById('amount');
 const fromCurrency = document.getElementById('fromCurrency');
 const toCurrency = document.getElementById('toCurrency');
